@@ -18,7 +18,8 @@ ie. To use the Zondicon `arrow-left` you would convert it to `ArrowLeft`
   <Zondicon icon="ArrowLeft" />
 ```
 
-You can also pass css classes to the Zondicon svg
+You can also pass css classes to the Zondicon `svg` element
+
 Note: `fill-content` and `text-red` are from the Tailwinds CSS library and `vue-zondicons` doesnt come with any css.
 ```
   import Zondicon from 'vue-zondicons'
