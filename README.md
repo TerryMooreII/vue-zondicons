@@ -8,14 +8,10 @@ npm install --save vue-zondicons
 
 **To Use**
 
-Browse Zondicons on the [Zondicon website](http://www.zondicons.com/icons.html)
-
-To add an icon convert the icon name listed on the Zondicon website from hypen case to Pascalcase
-
-ie. To use the Zondicon `arrow-left` you would convert it to `ArrowLeft`
+Browse Zondicons on the [Zondicon website](http://www.zondicons.com/icons.html) then add the name of the icon to the `icon` attribute
 
 ```javascript
-  <Zondicon icon="ArrowLeft" />
+  <Zondicon icon="arrow-left" />
 ```
 
 You can also pass css classes to the Zondicon `svg` element
@@ -24,12 +20,12 @@ Note: `fill-content` and `text-red` are from the Tailwinds CSS library and `vue-
 ```javascript
   import Zondicon from 'vue-zondicons'
 
-  <Zondicon icon="ArrowLeft" class="fill-current text-red"/>
+  <Zondicon icon="arrow-left" class="fill-current text-red"/>
 ```
 
 **Note**
 
-The icon `filter` has been changed to `FilterIcon` since `filter` is a registered keyword in Vuejs and will throw errors.
+The icon `filter` has been changed to `filter-icon` since `filter` is a registered keyword in Vuejs and will throw errors.
 
 
 ## Project setup

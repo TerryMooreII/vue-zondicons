@@ -1,7 +1,7 @@
 {
   "name": "vue-zondicons",
   "description": "Vue component to easily add Zondicon icons to your project",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "keywords": [
     "icon",
     "icons",
@@ -18,9 +18,9 @@
   ],
   "author": "Terry Moore II",
   "repository": {
-        "type": "git",
-        "url": "https://github.com/TerryMooreII/vue-zondicons.git"
-    },
+    "type": "git",
+    "url": "https://github.com/TerryMooreII/vue-zondicons.git"
+  },
   "license": "MIT",
   "main": "./dist/vue-zondicons.common.js",
   "scripts": {
@@ -37,6 +37,7 @@
     "*.md"
   ],
   "dependencies": {
+    "uppercamelcase": "^3.0.0",
     "vue": "^2.5.17"
   },
   "devDependencies": {
