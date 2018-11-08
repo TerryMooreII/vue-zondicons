@@ -23,7 +23,7 @@ Note: `fill-content` and `text-red` are from the Tailwinds CSS library and `vue-
 ```
   import Zondicon from 'vue-zondicons'
 
-  <Zondicon icon="ArrowLeft" class="fill-content text-red"/>
+  <Zondicon icon="ArrowLeft" class="fill-current text-red"/>
 ```
 
 **Note**
