@@ -1,7 +1,7 @@
 {
   "name": "vue-zondicons",
   "description": "Vue component to easily add Zondicon icons to your project",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "keywords": [
     "icon",
     "icons",
@@ -26,7 +26,8 @@
   "scripts": {
     "build": "vue-cli-service build --target lib --name vue-zondicons ./src/index.js",
     "lint": "vue-cli-service lint",
-    "test:unit": "vue-cli-service test:unit"
+    "test:unit": "vue-cli-service test:unit",
+    "publish": "npm publish --access public"
   },
   "files": [
     "dist/*",
