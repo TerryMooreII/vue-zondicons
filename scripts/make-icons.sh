@@ -25,6 +25,7 @@ rm "bookmark copy 2.svg"
 rm "bookmark copy 3.svg"
 rm "radar copy 2.svg"
 mv "tools copy.svg" "tools.svg"
+mv "filter.svg" "filter-icon.svg"
 
 for filename in *.svg; do
     base=${filename%.svg}
