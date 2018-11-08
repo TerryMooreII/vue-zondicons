@@ -49,3 +49,10 @@ npm build # Build package for npm
 npm publish 
 
 ```
+
+## Pull Request
+
+Pull Request are always welcome :)
+
+License: MIT
+
