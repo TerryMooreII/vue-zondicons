@@ -119,7 +119,7 @@ import Factory from './Factory.vue';
 import FastForward from './FastForward.vue';
 import FastRewind from './FastRewind.vue';
 import Film from './Film.vue';
-import Filter from './Filter.vue';
+import FilterIcon from './FilterIcon.vue';
 import Flag from './Flag.vue';
 import Flashlight from './Flashlight.vue';
 import Folder from './Folder.vue';
@@ -415,7 +415,7 @@ export default {
   FastForward,
   FastRewind,
   Film,
-  Filter,
+  FilterIcon,
   Flag,
   Flashlight,
   Folder,
