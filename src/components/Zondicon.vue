@@ -10,8 +10,7 @@ import icons from '../zondicons';
 export default {
   name: 'Zondicon',
   components: {
-    ...icons
-  }
+    ...icons,
+  },
 };
 </script>
-
