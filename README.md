@@ -8,6 +8,14 @@ npm install --save vue-zondicons
 
 **To Use**
 
+In your `main.js` Vue file add the following
+
+```
+import Zondicon from 'vue-zondicons';
+
+Vue.component('Zondicon', Zondicon);
+```
+
 Browse Zondicons on the [Zondicon website](http://www.zondicons.com/icons.html) then add the name of the icon to the `icon` attribute
 
 ```javascript
@@ -18,7 +26,6 @@ You can also pass css classes to the Zondicon `svg` element
 
 Note: `fill-content` and `text-red` are from the Tailwinds CSS library and `vue-zondicons` doesnt come with any css.
 ```javascript
-  import Zondicon from 'vue-zondicons'
 
   <Zondicon icon="arrow-left" class="fill-current text-red"/>
 ```
